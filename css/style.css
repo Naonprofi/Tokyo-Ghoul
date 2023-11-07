@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    background-image: url(../img/hatter2,jpg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    padding-top: 100px;
+    padding-bottom: 500px;
+    
+}
+.a{
+    text-align: center;
+}
+.b{
+    width: auto;
+    height: 30%;
+    
+}
+@media screen and (max-width: 576px) {
+    *{
+        font-size: small;
+    }
+    h1{
+        padding-top: 5rem;
+        padding-bottom: 30rem;
+    }
+    h2{ padding-top: 3rem;
+    }
+    .row{
+        padding-top: 2rem;
+    }
+    card{
+        max-width: 540px;
+    }
+}
+@media screen and (max-width: 992px) {
+    h2{ padding-top: 3rem;
+    }
+}
